@@ -1,5 +1,9 @@
 def position_taken?(board,index)
+<<<<<<< HEAD
   if(board[index] == " " || board[index] == nil || board[index] == "")
+=======
+  if(board[index] == " " || board[index] == "")
+>>>>>>> 6548f7a7da42b0817a7763734afc4a58310916b5
     return false
   else
     return true
